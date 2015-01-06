@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F75DE311A5B71380092FC3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F75DE301A5B71380092FC3C /* Foundation.framework */; };
+		7F75DE331A5B71380092FC3C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F75DE321A5B71380092FC3C /* CoreGraphics.framework */; };
+		7F75DE351A5B71380092FC3C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F75DE341A5B71380092FC3C /* UIKit.framework */; };
+		7F75DE3B1A5B71390092FC3C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7F75DE391A5B71390092FC3C /* InfoPlist.strings */; };
+		7F75DE3D1A5B71390092FC3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F75DE3C1A5B71390092FC3C /* main.m */; };
+		7F75DE411A5B71390092FC3C /* SefcomMainAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F75DE401A5B71390092FC3C /* SefcomMainAppDelegate.m */; };
+		7F75DE441A5B71390092FC3C /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F75DE421A5B71390092FC3C /* Main_iPhone.storyboard */; };
+		7F75DE471A5B71390092FC3C /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F75DE451A5B71390092FC3C /* Main_iPad.storyboard */; };
+		7F75DE4A1A5B71390092FC3C /* SefcomMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F75DE491A5B71390092FC3C /* SefcomMainViewController.m */; };
+		7F75DE4C1A5B71390092FC3C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F75DE4B1A5B71390092FC3C /* Images.xcassets */; };
+		7F75DE531A5B71390092FC3C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F75DE521A5B71390092FC3C /* XCTest.framework */; };
+		7F75DE541A5B71390092FC3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F75DE301A5B71380092FC3C /* Foundation.framework */; };
+		7F75DE551A5B71390092FC3C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F75DE341A5B71380092FC3C /* UIKit.framework */; };
+		7F75DE5D1A5B71390092FC3C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7F75DE5B1A5B71390092FC3C /* InfoPlist.strings */; };
+		7F75DE5F1A5B71390092FC3C /* IceCreamRandomizerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F75DE5E1A5B71390092FC3C /* IceCreamRandomizerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F75DE561A5B71390092FC3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F75DE251A5B71380092FC3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F75DE2C1A5B71380092FC3C;
+			remoteInfo = IceCreamRandomizer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7F75DE2D1A5B71380092FC3C /* IceCreamRandomizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IceCreamRandomizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F75DE301A5B71380092FC3C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7F75DE321A5B71380092FC3C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7F75DE341A5B71380092FC3C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7F75DE381A5B71390092FC3C /* IceCreamRandomizer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IceCreamRandomizer-Info.plist"; sourceTree = "<group>"; };
+		7F75DE3A1A5B71390092FC3C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7F75DE3C1A5B71390092FC3C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7F75DE3E1A5B71390092FC3C /* IceCreamRandomizer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IceCreamRandomizer-Prefix.pch"; sourceTree = "<group>"; };
+		7F75DE3F1A5B71390092FC3C /* SefcomMainAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SefcomMainAppDelegate.h; sourceTree = "<group>"; };
+		7F75DE401A5B71390092FC3C /* SefcomMainAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SefcomMainAppDelegate.m; sourceTree = "<group>"; };
+		7F75DE431A5B71390092FC3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		7F75DE461A5B71390092FC3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		7F75DE481A5B71390092FC3C /* SefcomMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SefcomMainViewController.h; sourceTree = "<group>"; };
+		7F75DE491A5B71390092FC3C /* SefcomMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SefcomMainViewController.m; sourceTree = "<group>"; };
+		7F75DE4B1A5B71390092FC3C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7F75DE511A5B71390092FC3C /* IceCreamRandomizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IceCreamRandomizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F75DE521A5B71390092FC3C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7F75DE5A1A5B71390092FC3C /* IceCreamRandomizerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IceCreamRandomizerTests-Info.plist"; sourceTree = "<group>"; };
+		7F75DE5C1A5B71390092FC3C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7F75DE5E1A5B71390092FC3C /* IceCreamRandomizerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IceCreamRandomizerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F75DE2A1A5B71380092FC3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F75DE331A5B71380092FC3C /* CoreGraphics.framework in Frameworks */,
+				7F75DE351A5B71380092FC3C /* UIKit.framework in Frameworks */,
+				7F75DE311A5B71380092FC3C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F75DE4E1A5B71390092FC3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F75DE531A5B71390092FC3C /* XCTest.framework in Frameworks */,
+				7F75DE551A5B71390092FC3C /* UIKit.framework in Frameworks */,
+				7F75DE541A5B71390092FC3C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F75DE241A5B71380092FC3C = {
+			isa = PBXGroup;
+			children = (
+				7F75DE361A5B71380092FC3C /* IceCreamRandomizer */,
+				7F75DE581A5B71390092FC3C /* IceCreamRandomizerTests */,
+				7F75DE2F1A5B71380092FC3C /* Frameworks */,
+				7F75DE2E1A5B71380092FC3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F75DE2E1A5B71380092FC3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F75DE2D1A5B71380092FC3C /* IceCreamRandomizer.app */,
+				7F75DE511A5B71390092FC3C /* IceCreamRandomizerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F75DE2F1A5B71380092FC3C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F75DE301A5B71380092FC3C /* Foundation.framework */,
+				7F75DE321A5B71380092FC3C /* CoreGraphics.framework */,
+				7F75DE341A5B71380092FC3C /* UIKit.framework */,
+				7F75DE521A5B71390092FC3C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F75DE361A5B71380092FC3C /* IceCreamRandomizer */ = {
+			isa = PBXGroup;
+			children = (
+				7F75DE3F1A5B71390092FC3C /* SefcomMainAppDelegate.h */,
+				7F75DE401A5B71390092FC3C /* SefcomMainAppDelegate.m */,
+				7F75DE421A5B71390092FC3C /* Main_iPhone.storyboard */,
+				7F75DE451A5B71390092FC3C /* Main_iPad.storyboard */,
+				7F75DE481A5B71390092FC3C /* SefcomMainViewController.h */,
+				7F75DE491A5B71390092FC3C /* SefcomMainViewController.m */,
+				7F75DE4B1A5B71390092FC3C /* Images.xcassets */,
+				7F75DE371A5B71390092FC3C /* Supporting Files */,
+			);
+			path = IceCreamRandomizer;
+			sourceTree = "<group>";
+		};
+		7F75DE371A5B71390092FC3C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F75DE381A5B71390092FC3C /* IceCreamRandomizer-Info.plist */,
+				7F75DE391A5B71390092FC3C /* InfoPlist.strings */,
+				7F75DE3C1A5B71390092FC3C /* main.m */,
+				7F75DE3E1A5B71390092FC3C /* IceCreamRandomizer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7F75DE581A5B71390092FC3C /* IceCreamRandomizerTests */ = {
+			isa = PBXGroup;
+			children = (
+				7F75DE5E1A5B71390092FC3C /* IceCreamRandomizerTests.m */,
+				7F75DE591A5B71390092FC3C /* Supporting Files */,
+			);
+			path = IceCreamRandomizerTests;
+			sourceTree = "<group>";
+		};
+		7F75DE591A5B71390092FC3C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F75DE5A1A5B71390092FC3C /* IceCreamRandomizerTests-Info.plist */,
+				7F75DE5B1A5B71390092FC3C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F75DE2C1A5B71380092FC3C /* IceCreamRandomizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F75DE621A5B71390092FC3C /* Build configuration list for PBXNativeTarget "IceCreamRandomizer" */;
+			buildPhases = (
+				7F75DE291A5B71380092FC3C /* Sources */,
+				7F75DE2A1A5B71380092FC3C /* Frameworks */,
+				7F75DE2B1A5B71380092FC3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IceCreamRandomizer;
+			productName = IceCreamRandomizer;
+			productReference = 7F75DE2D1A5B71380092FC3C /* IceCreamRandomizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7F75DE501A5B71390092FC3C /* IceCreamRandomizerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F75DE651A5B71390092FC3C /* Build configuration list for PBXNativeTarget "IceCreamRandomizerTests" */;
+			buildPhases = (
+				7F75DE4D1A5B71390092FC3C /* Sources */,
+				7F75DE4E1A5B71390092FC3C /* Frameworks */,
+				7F75DE4F1A5B71390092FC3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F75DE571A5B71390092FC3C /* PBXTargetDependency */,
+			);
+			name = IceCreamRandomizerTests;
+			productName = IceCreamRandomizerTests;
+			productReference = 7F75DE511A5B71390092FC3C /* IceCreamRandomizerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F75DE251A5B71380092FC3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SefcomMain;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "SEFCOM User";
+				TargetAttributes = {
+					7F75DE501A5B71390092FC3C = {
+						TestTargetID = 7F75DE2C1A5B71380092FC3C;
+					};
+				};
+			};
+			buildConfigurationList = 7F75DE281A5B71380092FC3C /* Build configuration list for PBXProject "IceCreamRandomizer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F75DE241A5B71380092FC3C;
+			productRefGroup = 7F75DE2E1A5B71380092FC3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F75DE2C1A5B71380092FC3C /* IceCreamRandomizer */,
+				7F75DE501A5B71390092FC3C /* IceCreamRandomizerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F75DE2B1A5B71380092FC3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F75DE471A5B71390092FC3C /* Main_iPad.storyboard in Resources */,
+				7F75DE4C1A5B71390092FC3C /* Images.xcassets in Resources */,
+				7F75DE441A5B71390092FC3C /* Main_iPhone.storyboard in Resources */,
+				7F75DE3B1A5B71390092FC3C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F75DE4F1A5B71390092FC3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F75DE5D1A5B71390092FC3C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F75DE291A5B71380092FC3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F75DE4A1A5B71390092FC3C /* SefcomMainViewController.m in Sources */,
+				7F75DE411A5B71390092FC3C /* SefcomMainAppDelegate.m in Sources */,
+				7F75DE3D1A5B71390092FC3C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F75DE4D1A5B71390092FC3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F75DE5F1A5B71390092FC3C /* IceCreamRandomizerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7F75DE571A5B71390092FC3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F75DE2C1A5B71380092FC3C /* IceCreamRandomizer */;
+			targetProxy = 7F75DE561A5B71390092FC3C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7F75DE391A5B71390092FC3C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F75DE3A1A5B71390092FC3C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7F75DE421A5B71390092FC3C /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F75DE431A5B71390092FC3C /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		7F75DE451A5B71390092FC3C /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F75DE461A5B71390092FC3C /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		7F75DE5B1A5B71390092FC3C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F75DE5C1A5B71390092FC3C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F75DE601A5B71390092FC3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F75DE611A5B71390092FC3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F75DE631A5B71390092FC3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IceCreamRandomizer/IceCreamRandomizer-Prefix.pch";
+				INFOPLIST_FILE = "IceCreamRandomizer/IceCreamRandomizer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7F75DE641A5B71390092FC3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IceCreamRandomizer/IceCreamRandomizer-Prefix.pch";
+				INFOPLIST_FILE = "IceCreamRandomizer/IceCreamRandomizer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7F75DE661A5B71390092FC3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/IceCreamRandomizer.app/IceCreamRandomizer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IceCreamRandomizer/IceCreamRandomizer-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "IceCreamRandomizerTests/IceCreamRandomizerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7F75DE671A5B71390092FC3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/IceCreamRandomizer.app/IceCreamRandomizer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IceCreamRandomizer/IceCreamRandomizer-Prefix.pch";
+				INFOPLIST_FILE = "IceCreamRandomizerTests/IceCreamRandomizerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F75DE281A5B71380092FC3C /* Build configuration list for PBXProject "IceCreamRandomizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F75DE601A5B71390092FC3C /* Debug */,
+				7F75DE611A5B71390092FC3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F75DE621A5B71390092FC3C /* Build configuration list for PBXNativeTarget "IceCreamRandomizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F75DE631A5B71390092FC3C /* Debug */,
+				7F75DE641A5B71390092FC3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7F75DE651A5B71390092FC3C /* Build configuration list for PBXNativeTarget "IceCreamRandomizerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F75DE661A5B71390092FC3C /* Debug */,
+				7F75DE671A5B71390092FC3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F75DE251A5B71380092FC3C /* Project object */;
+}
