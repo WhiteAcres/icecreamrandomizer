@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Name</key>
+		<string>Apple Pie</string>
+		<key>Image</key>
+		<string>Apple Pie.png</string>
+		<key>Active</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Black Cherries</string>
+		<key>Image</key>
+		<string>Black Cherries.png</string>
+		<key>Active</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>BlueBerries</string>
+		<key>Image</key>
+		<string>BlueBerries.png</string>
+		<key>Active</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Brownie</string>
+		<key>Image</key>
+		<string>Brownie.png</string>
+		<key>Active</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Butterfinger</string>
+		<key>Image</key>
+		<string>Butterfinger.png</string>
+		<key>Active</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Coconut</string>
+		<key>Image</key>
+		<string>Coconut.png</string>
+		<key>Active</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Cookie Dough</string>
+		<key>Image</key>
+		<string>Cookie Dough.png</string>
+		<key>Active</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Chocolate Shavings</string>
+		<key>Image</key>
+		<string>Chocolate Shavings.png</string>
+		<key>Active</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Crunch Bar</string>
+		<key>Image</key>
+		<string>Crunch Bar.png</string>
+		<key>Active</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Graham Cracker</string>
+		<key>Image</key>
+		<string>Graham Cracker.png</string>
+		<key>Active</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Gum Balls</string>
+		<key>Image</key>
+		<string>Gum Balls.png</string>
+		<key>Active</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Gummy Bears</string>
+		<key>Image</key>
+		<string>Gummy Bears.png</string>
+		<key>Active</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Heath Bar</string>
+		<key>Image</key>
+		<string>Heath Bar.png</string>
+		<key>Active</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>KitKat Bar</string>
+		<key>Image</key>
+		<string>KitKat Bar.png</string>
+		<key>Active</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Oreos</string>
+		<key>Image</key>
+		<string>Oroes.png</string>
+		<key>Active</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Peach Pie</string>
+		<key>Image</key>
+		<string>Peach Pie.png</string>
+		<key>Active</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Peanuts</string>
+		<key>Image</key>
+		<string>Peanuts.png</string>
+		<key>Active</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Pecans</string>
+		<key>Image</key>
+		<string>Pecans.png</string>
+		<key>Active</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Rainbow Sprinkles</string>
+		<key>Image</key>
+		<string>Rainbow Sprinkles.png</string>
+		<key>Active</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Raspberries</string>
+		<key>Image</key>
+		<string>Raspberries.png</string>
+		<key>Active</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Red Cherries</string>
+		<key>Image</key>
+		<string>Red Cherries.png</string>
+		<key>Active</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Reeses</string>
+		<key>Image</key>
+		<string>Reeses.png</string>
+		<key>Active</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Roasted Almonds</string>
+		<key>Image</key>
+		<string>Roasted Almonds.png</string>
+		<key>Active</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Strawberries</string>
+		<key>Image</key>
+		<string>Strawberries.png</string>
+		<key>Active</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Snickers</string>
+		<key>Image</key>
+		<string>Snickers.png</string>
+		<key>Active</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Twix Bar</string>
+		<key>Image</key>
+		<string>Twix Bar.png</string>
+		<key>Active</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>M&amp;M&apos;s</string>
+		<key>Image</key>
+		<string>M&amp;Ms.png</string>
+		<key>Active</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Marshmallows</string>
+		<key>Image</key>
+		<string>Marshmallows.png</string>
+		<key>Active</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>White Chocolate</string>
+		<key>Image</key>
+		<string>White Chocolate.png</string>
+		<key>Active</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Chocolate Chips</string>
+		<key>Image</key>
+		<string>Chocolate chips.png</string>
+		<key>Active</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Pineapple</string>
+		<key>Image</key>
+		<string>Pineapple.png</string>
+		<key>Active</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Yellow Cake</string>
+		<key>Image</key>
+		<string>Yellow Cake.png</string>
+		<key>Active</key>
+		<false/>
+	</dict>
+</array>
+</plist>

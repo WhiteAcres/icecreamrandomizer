@@ -7,12 +7,20 @@
 //
 
 #import "SefcomMainAppDelegate.h"
+#import "SefcomMainViewController.h"
 
 @implementation SefcomMainAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
     // Override point for customization after application launch.
+    SefcomMainViewController *control = [[SefcomMainViewController alloc] init];
+    UINavigationController *navControl = [[UINavigationController alloc] initWithRootViewController: control];
+    self.window.rootViewController = navControl;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 							

@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F21CD2A1A78D5EC00476193 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F21CD291A78D5EC00476193 /* SettingsViewController.m */; };
+		3FA6A0241ABBED2700E6BD83 /* 0MixinFavorites.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3FA6A0201ABBED2700E6BD83 /* 0MixinFavorites.txt */; };
+		3FA6A0251ABBED2700E6BD83 /* 1MixinFavorites.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3FA6A0211ABBED2700E6BD83 /* 1MixinFavorites.txt */; };
+		3FA6A0261ABBED2700E6BD83 /* 2MixinFavorites.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3FA6A0221ABBED2700E6BD83 /* 2MixinFavorites.txt */; };
+		3FA6A0271ABBED2700E6BD83 /* 3MixinFavorites.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3FA6A0231ABBED2700E6BD83 /* 3MixinFavorites.txt */; };
+		3FA882D71AA270FE00BC2367 /* Settings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3FA882D61AA270FE00BC2367 /* Settings.plist */; };
+		3FC64FD01AC2986E00778931 /* test.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3FC64FCF1AC2986E00778931 /* test.txt */; };
 		7F75DE311A5B71380092FC3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F75DE301A5B71380092FC3C /* Foundation.framework */; };
 		7F75DE331A5B71380092FC3C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F75DE321A5B71380092FC3C /* CoreGraphics.framework */; };
 		7F75DE351A5B71380092FC3C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F75DE341A5B71380092FC3C /* UIKit.framework */; };
@@ -22,6 +29,65 @@
 		7F75DE551A5B71390092FC3C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F75DE341A5B71380092FC3C /* UIKit.framework */; };
 		7F75DE5D1A5B71390092FC3C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7F75DE5B1A5B71390092FC3C /* InfoPlist.strings */; };
 		7F75DE5F1A5B71390092FC3C /* IceCreamRandomizerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F75DE5E1A5B71390092FC3C /* IceCreamRandomizerTests.m */; };
+		7F75DE6D1A5E1A390092FC3C /* IceCream.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F75DE6C1A5E1A390092FC3C /* IceCream.plist */; };
+		7F75DE7B1A5E2FCC0092FC3C /* MixIn.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F75DE7A1A5E2FCC0092FC3C /* MixIn.plist */; };
+		7F75DE8E1A5E4F160092FC3C /* BananaIceCream.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F75DE7D1A5E4F160092FC3C /* BananaIceCream.png */; };
+		7F75DE8F1A5E4F160092FC3C /* ButterPecanIceCream.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F75DE7E1A5E4F160092FC3C /* ButterPecanIceCream.png */; };
+		7F75DE901A5E4F160092FC3C /* CakeBatterIceCream.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F75DE7F1A5E4F160092FC3C /* CakeBatterIceCream.png */; };
+		7F75DE911A5E4F160092FC3C /* CheeseCakeIceCream.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F75DE801A5E4F160092FC3C /* CheeseCakeIceCream.png */; };
+		7F75DE921A5E4F160092FC3C /* ChocolateIceCream.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F75DE811A5E4F160092FC3C /* ChocolateIceCream.png */; };
+		7F75DE931A5E4F160092FC3C /* CinnamonIceCrean.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F75DE821A5E4F160092FC3C /* CinnamonIceCrean.png */; };
+		7F75DE941A5E4F160092FC3C /* CoconutIceCream.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F75DE831A5E4F160092FC3C /* CoconutIceCream.png */; };
+		7F75DE951A5E4F160092FC3C /* CoffeeIceCream.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F75DE841A5E4F160092FC3C /* CoffeeIceCream.png */; };
+		7F75DE961A5E4F160092FC3C /* CottonCandyIceCream.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F75DE851A5E4F160092FC3C /* CottonCandyIceCream.png */; };
+		7F75DE971A5E4F160092FC3C /* DarkChocolateIceCream.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F75DE861A5E4F160092FC3C /* DarkChocolateIceCream.png */; };
+		7F75DE981A5E4F160092FC3C /* MangoIceCream.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F75DE871A5E4F160092FC3C /* MangoIceCream.png */; };
+		7F75DE991A5E4F160092FC3C /* MintIceCream.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F75DE881A5E4F160092FC3C /* MintIceCream.png */; };
+		7F75DE9A1A5E4F160092FC3C /* PistachioIceCream.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F75DE891A5E4F160092FC3C /* PistachioIceCream.png */; };
+		7F75DE9B1A5E4F160092FC3C /* PumpkinIceCream.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F75DE8A1A5E4F160092FC3C /* PumpkinIceCream.png */; };
+		7F75DE9C1A5E4F160092FC3C /* StrawBerryIceCream.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F75DE8B1A5E4F160092FC3C /* StrawBerryIceCream.png */; };
+		7F75DE9D1A5E4F160092FC3C /* SweetCreamIceCream.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F75DE8C1A5E4F160092FC3C /* SweetCreamIceCream.png */; };
+		7F75DE9E1A5E4F160092FC3C /* VanillaIceCream.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F75DE8D1A5E4F160092FC3C /* VanillaIceCream.png */; };
+		7F75DEB51A5E4F250092FC3C /* Apple Pie.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F75DEA01A5E4F250092FC3C /* Apple Pie.png */; };
+		7F75DEB61A5E4F250092FC3C /* BlueBerries.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F75DEA11A5E4F250092FC3C /* BlueBerries.png */; };
+		7F75DEB71A5E4F250092FC3C /* Brownie.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F75DEA21A5E4F250092FC3C /* Brownie.png */; };
+		7F75DEB81A5E4F250092FC3C /* Chip Template.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F75DEA31A5E4F250092FC3C /* Chip Template.png */; };
+		7F75DEB91A5E4F250092FC3C /* Chocolate chips.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F75DEA41A5E4F250092FC3C /* Chocolate chips.png */; };
+		7F75DEBA1A5E4F250092FC3C /* Coconut.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F75DEA51A5E4F250092FC3C /* Coconut.png */; };
+		7F75DEBB1A5E4F250092FC3C /* Cookie Dough.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F75DEA61A5E4F250092FC3C /* Cookie Dough.png */; };
+		7F75DEBC1A5E4F250092FC3C /* Graham Cracker.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F75DEA71A5E4F250092FC3C /* Graham Cracker.png */; };
+		7F75DEBD1A5E4F250092FC3C /* Gum Balls.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F75DEA81A5E4F250092FC3C /* Gum Balls.png */; };
+		7F75DEBE1A5E4F250092FC3C /* Gummy Bears.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F75DEA91A5E4F250092FC3C /* Gummy Bears.png */; };
+		7F75DEBF1A5E4F250092FC3C /* Heath Bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F75DEAA1A5E4F250092FC3C /* Heath Bar.png */; };
+		7F75DEC01A5E4F250092FC3C /* M&Ms.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F75DEAB1A5E4F250092FC3C /* M&Ms.png */; };
+		7F75DEC11A5E4F250092FC3C /* Marshmallows.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F75DEAC1A5E4F250092FC3C /* Marshmallows.png */; };
+		7F75DEC21A5E4F250092FC3C /* Peach Pie.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F75DEAD1A5E4F250092FC3C /* Peach Pie.png */; };
+		7F75DEC31A5E4F250092FC3C /* Peanuts.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F75DEAE1A5E4F250092FC3C /* Peanuts.png */; };
+		7F75DEC41A5E4F250092FC3C /* Pineapple.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F75DEAF1A5E4F250092FC3C /* Pineapple.png */; };
+		7F75DEC51A5E4F250092FC3C /* Raspberries.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F75DEB01A5E4F250092FC3C /* Raspberries.png */; };
+		7F75DEC61A5E4F250092FC3C /* Reeses.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F75DEB11A5E4F250092FC3C /* Reeses.png */; };
+		7F75DEC71A5E4F250092FC3C /* Snickers.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F75DEB21A5E4F250092FC3C /* Snickers.png */; };
+		7F75DEC81A5E4F250092FC3C /* Strawberries.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F75DEB31A5E4F250092FC3C /* Strawberries.png */; };
+		7F75DEC91A5E4F250092FC3C /* White Chocolate.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F75DEB41A5E4F250092FC3C /* White Chocolate.png */; };
+		7F75DECB1A64FAE50092FC3C /* CandyCaneIceCream.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F75DECA1A64FAE50092FC3C /* CandyCaneIceCream.png */; };
+		7F75DECD1A64FAF10092FC3C /* ChocolateCakeBatterIceCream.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F75DECC1A64FAF10092FC3C /* ChocolateCakeBatterIceCream.png */; };
+		7F75DECF1A64FB020092FC3C /* LemonSorbetIceCream.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F75DECE1A64FB020092FC3C /* LemonSorbetIceCream.png */; };
+		7F75DED11A64FB090092FC3C /* OreoCreamFillingIceCream.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F75DED01A64FB090092FC3C /* OreoCreamFillingIceCream.png */; };
+		7F75DED31A64FB0F0092FC3C /* RedHotStrawberryIceCream.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F75DED21A64FB0F0092FC3C /* RedHotStrawberryIceCream.png */; };
+		7F75DED51A64FB150092FC3C /* SkinnyVanillaIceCream.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F75DED41A64FB150092FC3C /* SkinnyVanillaIceCream.png */; };
+		7F75DED71A64FB350092FC3C /* WatermelonSorbetIceCream.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F75DED61A64FB350092FC3C /* WatermelonSorbetIceCream.png */; };
+		7F75DED91A64FB480092FC3C /* Black Cherries.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F75DED81A64FB480092FC3C /* Black Cherries.png */; };
+		7F75DEDB1A64FB4C0092FC3C /* Butterfinger.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F75DEDA1A64FB4C0092FC3C /* Butterfinger.png */; };
+		7F75DEDD1A64FB520092FC3C /* Chocolate Shavings.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F75DEDC1A64FB520092FC3C /* Chocolate Shavings.png */; };
+		7F75DEDF1A64FB5A0092FC3C /* Crunch Bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F75DEDE1A64FB5A0092FC3C /* Crunch Bar.png */; };
+		7F75DEE11A64FB670092FC3C /* KitKat Bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F75DEE01A64FB670092FC3C /* KitKat Bar.png */; };
+		7F75DEE31A64FB780092FC3C /* Oroes.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F75DEE21A64FB780092FC3C /* Oroes.png */; };
+		7F75DEE51A64FB800092FC3C /* Pecans.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F75DEE41A64FB800092FC3C /* Pecans.png */; };
+		7F75DEE71A64FB880092FC3C /* Rainbow Sprinkles.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F75DEE61A64FB880092FC3C /* Rainbow Sprinkles.png */; };
+		7F75DEE91A64FB8F0092FC3C /* Red Cherries.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F75DEE81A64FB8F0092FC3C /* Red Cherries.png */; };
+		7F75DEEB1A64FB970092FC3C /* Roasted Almonds.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F75DEEA1A64FB970092FC3C /* Roasted Almonds.png */; };
+		7F75DEED1A64FBA70092FC3C /* Twix Bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F75DEEC1A64FBA70092FC3C /* Twix Bar.png */; };
+		7F75DEEF1A64FBAF0092FC3C /* Yellow Cake.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F75DEEE1A64FBAF0092FC3C /* Yellow Cake.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +101,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F21CD281A78D5EC00476193 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		3F21CD291A78D5EC00476193 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		3FA6A0201ABBED2700E6BD83 /* 0MixinFavorites.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 0MixinFavorites.txt; sourceTree = SOURCE_ROOT; };
+		3FA6A0211ABBED2700E6BD83 /* 1MixinFavorites.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 1MixinFavorites.txt; sourceTree = SOURCE_ROOT; };
+		3FA6A0221ABBED2700E6BD83 /* 2MixinFavorites.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 2MixinFavorites.txt; sourceTree = SOURCE_ROOT; };
+		3FA6A0231ABBED2700E6BD83 /* 3MixinFavorites.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 3MixinFavorites.txt; sourceTree = SOURCE_ROOT; };
+		3FA882D61AA270FE00BC2367 /* Settings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Settings.plist; sourceTree = "<group>"; };
+		3FC64FCF1AC2986E00778931 /* test.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.txt; sourceTree = SOURCE_ROOT; };
 		7F75DE2D1A5B71380092FC3C /* IceCreamRandomizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IceCreamRandomizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F75DE301A5B71380092FC3C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7F75DE321A5B71380092FC3C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -55,6 +129,65 @@
 		7F75DE5A1A5B71390092FC3C /* IceCreamRandomizerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IceCreamRandomizerTests-Info.plist"; sourceTree = "<group>"; };
 		7F75DE5C1A5B71390092FC3C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7F75DE5E1A5B71390092FC3C /* IceCreamRandomizerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IceCreamRandomizerTests.m; sourceTree = "<group>"; };
+		7F75DE6C1A5E1A390092FC3C /* IceCream.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = IceCream.plist; path = ../IceCream.plist; sourceTree = "<group>"; };
+		7F75DE7A1A5E2FCC0092FC3C /* MixIn.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MixIn.plist; sourceTree = "<group>"; };
+		7F75DE7D1A5E4F160092FC3C /* BananaIceCream.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BananaIceCream.png; sourceTree = "<group>"; };
+		7F75DE7E1A5E4F160092FC3C /* ButterPecanIceCream.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButterPecanIceCream.png; sourceTree = "<group>"; };
+		7F75DE7F1A5E4F160092FC3C /* CakeBatterIceCream.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CakeBatterIceCream.png; sourceTree = "<group>"; };
+		7F75DE801A5E4F160092FC3C /* CheeseCakeIceCream.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CheeseCakeIceCream.png; sourceTree = "<group>"; };
+		7F75DE811A5E4F160092FC3C /* ChocolateIceCream.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ChocolateIceCream.png; sourceTree = "<group>"; };
+		7F75DE821A5E4F160092FC3C /* CinnamonIceCrean.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CinnamonIceCrean.png; sourceTree = "<group>"; };
+		7F75DE831A5E4F160092FC3C /* CoconutIceCream.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CoconutIceCream.png; sourceTree = "<group>"; };
+		7F75DE841A5E4F160092FC3C /* CoffeeIceCream.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CoffeeIceCream.png; sourceTree = "<group>"; };
+		7F75DE851A5E4F160092FC3C /* CottonCandyIceCream.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CottonCandyIceCream.png; sourceTree = "<group>"; };
+		7F75DE861A5E4F160092FC3C /* DarkChocolateIceCream.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DarkChocolateIceCream.png; sourceTree = "<group>"; };
+		7F75DE871A5E4F160092FC3C /* MangoIceCream.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MangoIceCream.png; sourceTree = "<group>"; };
+		7F75DE881A5E4F160092FC3C /* MintIceCream.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MintIceCream.png; sourceTree = "<group>"; };
+		7F75DE891A5E4F160092FC3C /* PistachioIceCream.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PistachioIceCream.png; sourceTree = "<group>"; };
+		7F75DE8A1A5E4F160092FC3C /* PumpkinIceCream.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PumpkinIceCream.png; sourceTree = "<group>"; };
+		7F75DE8B1A5E4F160092FC3C /* StrawBerryIceCream.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StrawBerryIceCream.png; sourceTree = "<group>"; };
+		7F75DE8C1A5E4F160092FC3C /* SweetCreamIceCream.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SweetCreamIceCream.png; sourceTree = "<group>"; };
+		7F75DE8D1A5E4F160092FC3C /* VanillaIceCream.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VanillaIceCream.png; sourceTree = "<group>"; };
+		7F75DEA01A5E4F250092FC3C /* Apple Pie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Apple Pie.png"; sourceTree = "<group>"; };
+		7F75DEA11A5E4F250092FC3C /* BlueBerries.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BlueBerries.png; sourceTree = "<group>"; };
+		7F75DEA21A5E4F250092FC3C /* Brownie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Brownie.png; sourceTree = "<group>"; };
+		7F75DEA31A5E4F250092FC3C /* Chip Template.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chip Template.png"; sourceTree = "<group>"; };
+		7F75DEA41A5E4F250092FC3C /* Chocolate chips.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chocolate chips.png"; sourceTree = "<group>"; };
+		7F75DEA51A5E4F250092FC3C /* Coconut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Coconut.png; sourceTree = "<group>"; };
+		7F75DEA61A5E4F250092FC3C /* Cookie Dough.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cookie Dough.png"; sourceTree = "<group>"; };
+		7F75DEA71A5E4F250092FC3C /* Graham Cracker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Graham Cracker.png"; sourceTree = "<group>"; };
+		7F75DEA81A5E4F250092FC3C /* Gum Balls.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gum Balls.png"; sourceTree = "<group>"; };
+		7F75DEA91A5E4F250092FC3C /* Gummy Bears.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gummy Bears.png"; sourceTree = "<group>"; };
+		7F75DEAA1A5E4F250092FC3C /* Heath Bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Heath Bar.png"; sourceTree = "<group>"; };
+		7F75DEAB1A5E4F250092FC3C /* M&Ms.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "M&Ms.png"; sourceTree = "<group>"; };
+		7F75DEAC1A5E4F250092FC3C /* Marshmallows.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Marshmallows.png; sourceTree = "<group>"; };
+		7F75DEAD1A5E4F250092FC3C /* Peach Pie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Peach Pie.png"; sourceTree = "<group>"; };
+		7F75DEAE1A5E4F250092FC3C /* Peanuts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Peanuts.png; sourceTree = "<group>"; };
+		7F75DEAF1A5E4F250092FC3C /* Pineapple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pineapple.png; sourceTree = "<group>"; };
+		7F75DEB01A5E4F250092FC3C /* Raspberries.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Raspberries.png; sourceTree = "<group>"; };
+		7F75DEB11A5E4F250092FC3C /* Reeses.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Reeses.png; sourceTree = "<group>"; };
+		7F75DEB21A5E4F250092FC3C /* Snickers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Snickers.png; sourceTree = "<group>"; };
+		7F75DEB31A5E4F250092FC3C /* Strawberries.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Strawberries.png; sourceTree = "<group>"; };
+		7F75DEB41A5E4F250092FC3C /* White Chocolate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "White Chocolate.png"; sourceTree = "<group>"; };
+		7F75DECA1A64FAE50092FC3C /* CandyCaneIceCream.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CandyCaneIceCream.png; sourceTree = "<group>"; };
+		7F75DECC1A64FAF10092FC3C /* ChocolateCakeBatterIceCream.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ChocolateCakeBatterIceCream.png; sourceTree = "<group>"; };
+		7F75DECE1A64FB020092FC3C /* LemonSorbetIceCream.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LemonSorbetIceCream.png; sourceTree = "<group>"; };
+		7F75DED01A64FB090092FC3C /* OreoCreamFillingIceCream.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OreoCreamFillingIceCream.png; sourceTree = "<group>"; };
+		7F75DED21A64FB0F0092FC3C /* RedHotStrawberryIceCream.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RedHotStrawberryIceCream.png; sourceTree = "<group>"; };
+		7F75DED41A64FB150092FC3C /* SkinnyVanillaIceCream.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SkinnyVanillaIceCream.png; sourceTree = "<group>"; };
+		7F75DED61A64FB350092FC3C /* WatermelonSorbetIceCream.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WatermelonSorbetIceCream.png; sourceTree = "<group>"; };
+		7F75DED81A64FB480092FC3C /* Black Cherries.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Black Cherries.png"; sourceTree = "<group>"; };
+		7F75DEDA1A64FB4C0092FC3C /* Butterfinger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Butterfinger.png; sourceTree = "<group>"; };
+		7F75DEDC1A64FB520092FC3C /* Chocolate Shavings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chocolate Shavings.png"; sourceTree = "<group>"; };
+		7F75DEDE1A64FB5A0092FC3C /* Crunch Bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Crunch Bar.png"; sourceTree = "<group>"; };
+		7F75DEE01A64FB670092FC3C /* KitKat Bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KitKat Bar.png"; sourceTree = "<group>"; };
+		7F75DEE21A64FB780092FC3C /* Oroes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Oroes.png; sourceTree = "<group>"; };
+		7F75DEE41A64FB800092FC3C /* Pecans.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pecans.png; sourceTree = "<group>"; };
+		7F75DEE61A64FB880092FC3C /* Rainbow Sprinkles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rainbow Sprinkles.png"; sourceTree = "<group>"; };
+		7F75DEE81A64FB8F0092FC3C /* Red Cherries.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Red Cherries.png"; sourceTree = "<group>"; };
+		7F75DEEA1A64FB970092FC3C /* Roasted Almonds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Roasted Almonds.png"; sourceTree = "<group>"; };
+		7F75DEEC1A64FBA70092FC3C /* Twix Bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Twix Bar.png"; sourceTree = "<group>"; };
+		7F75DEEE1A64FBAF0092FC3C /* Yellow Cake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Yellow Cake.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,12 +247,22 @@
 		7F75DE361A5B71380092FC3C /* IceCreamRandomizer */ = {
 			isa = PBXGroup;
 			children = (
+				3FC64FCF1AC2986E00778931 /* test.txt */,
 				7F75DE3F1A5B71390092FC3C /* SefcomMainAppDelegate.h */,
 				7F75DE401A5B71390092FC3C /* SefcomMainAppDelegate.m */,
 				7F75DE421A5B71390092FC3C /* Main_iPhone.storyboard */,
 				7F75DE451A5B71390092FC3C /* Main_iPad.storyboard */,
+				3F21CD281A78D5EC00476193 /* SettingsViewController.h */,
+				3F21CD291A78D5EC00476193 /* SettingsViewController.m */,
 				7F75DE481A5B71390092FC3C /* SefcomMainViewController.h */,
 				7F75DE491A5B71390092FC3C /* SefcomMainViewController.m */,
+				7F75DE6C1A5E1A390092FC3C /* IceCream.plist */,
+				7F75DE7A1A5E2FCC0092FC3C /* MixIn.plist */,
+				3FA882D61AA270FE00BC2367 /* Settings.plist */,
+				3FA6A0201ABBED2700E6BD83 /* 0MixinFavorites.txt */,
+				3FA6A0211ABBED2700E6BD83 /* 1MixinFavorites.txt */,
+				3FA6A0221ABBED2700E6BD83 /* 2MixinFavorites.txt */,
+				3FA6A0231ABBED2700E6BD83 /* 3MixinFavorites.txt */,
 				7F75DE4B1A5B71390092FC3C /* Images.xcassets */,
 				7F75DE371A5B71390092FC3C /* Supporting Files */,
 			);
@@ -129,6 +272,8 @@
 		7F75DE371A5B71390092FC3C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7F75DE9F1A5E4F250092FC3C /* MixIns */,
+				7F75DE7C1A5E4F160092FC3C /* IceCreams */,
 				7F75DE381A5B71390092FC3C /* IceCreamRandomizer-Info.plist */,
 				7F75DE391A5B71390092FC3C /* InfoPlist.strings */,
 				7F75DE3C1A5B71390092FC3C /* main.m */,
@@ -153,6 +298,77 @@
 				7F75DE5B1A5B71390092FC3C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7F75DE7C1A5E4F160092FC3C /* IceCreams */ = {
+			isa = PBXGroup;
+			children = (
+				7F75DE7D1A5E4F160092FC3C /* BananaIceCream.png */,
+				7F75DE7E1A5E4F160092FC3C /* ButterPecanIceCream.png */,
+				7F75DE7F1A5E4F160092FC3C /* CakeBatterIceCream.png */,
+				7F75DECA1A64FAE50092FC3C /* CandyCaneIceCream.png */,
+				7F75DE801A5E4F160092FC3C /* CheeseCakeIceCream.png */,
+				7F75DECC1A64FAF10092FC3C /* ChocolateCakeBatterIceCream.png */,
+				7F75DE811A5E4F160092FC3C /* ChocolateIceCream.png */,
+				7F75DE821A5E4F160092FC3C /* CinnamonIceCrean.png */,
+				7F75DE831A5E4F160092FC3C /* CoconutIceCream.png */,
+				7F75DE841A5E4F160092FC3C /* CoffeeIceCream.png */,
+				7F75DE851A5E4F160092FC3C /* CottonCandyIceCream.png */,
+				7F75DE861A5E4F160092FC3C /* DarkChocolateIceCream.png */,
+				7F75DECE1A64FB020092FC3C /* LemonSorbetIceCream.png */,
+				7F75DE871A5E4F160092FC3C /* MangoIceCream.png */,
+				7F75DE881A5E4F160092FC3C /* MintIceCream.png */,
+				7F75DED01A64FB090092FC3C /* OreoCreamFillingIceCream.png */,
+				7F75DE891A5E4F160092FC3C /* PistachioIceCream.png */,
+				7F75DE8A1A5E4F160092FC3C /* PumpkinIceCream.png */,
+				7F75DED21A64FB0F0092FC3C /* RedHotStrawberryIceCream.png */,
+				7F75DED41A64FB150092FC3C /* SkinnyVanillaIceCream.png */,
+				7F75DE8B1A5E4F160092FC3C /* StrawBerryIceCream.png */,
+				7F75DE8C1A5E4F160092FC3C /* SweetCreamIceCream.png */,
+				7F75DE8D1A5E4F160092FC3C /* VanillaIceCream.png */,
+				7F75DED61A64FB350092FC3C /* WatermelonSorbetIceCream.png */,
+			);
+			path = IceCreams;
+			sourceTree = "<group>";
+		};
+		7F75DE9F1A5E4F250092FC3C /* MixIns */ = {
+			isa = PBXGroup;
+			children = (
+				7F75DEA01A5E4F250092FC3C /* Apple Pie.png */,
+				7F75DED81A64FB480092FC3C /* Black Cherries.png */,
+				7F75DEA11A5E4F250092FC3C /* BlueBerries.png */,
+				7F75DEA21A5E4F250092FC3C /* Brownie.png */,
+				7F75DEDA1A64FB4C0092FC3C /* Butterfinger.png */,
+				7F75DEA31A5E4F250092FC3C /* Chip Template.png */,
+				7F75DEA41A5E4F250092FC3C /* Chocolate chips.png */,
+				7F75DEDC1A64FB520092FC3C /* Chocolate Shavings.png */,
+				7F75DEA51A5E4F250092FC3C /* Coconut.png */,
+				7F75DEA61A5E4F250092FC3C /* Cookie Dough.png */,
+				7F75DEDE1A64FB5A0092FC3C /* Crunch Bar.png */,
+				7F75DEA71A5E4F250092FC3C /* Graham Cracker.png */,
+				7F75DEA81A5E4F250092FC3C /* Gum Balls.png */,
+				7F75DEA91A5E4F250092FC3C /* Gummy Bears.png */,
+				7F75DEAA1A5E4F250092FC3C /* Heath Bar.png */,
+				7F75DEE01A64FB670092FC3C /* KitKat Bar.png */,
+				7F75DEAB1A5E4F250092FC3C /* M&Ms.png */,
+				7F75DEAC1A5E4F250092FC3C /* Marshmallows.png */,
+				7F75DEE21A64FB780092FC3C /* Oroes.png */,
+				7F75DEAD1A5E4F250092FC3C /* Peach Pie.png */,
+				7F75DEAE1A5E4F250092FC3C /* Peanuts.png */,
+				7F75DEE41A64FB800092FC3C /* Pecans.png */,
+				7F75DEAF1A5E4F250092FC3C /* Pineapple.png */,
+				7F75DEE61A64FB880092FC3C /* Rainbow Sprinkles.png */,
+				7F75DEB01A5E4F250092FC3C /* Raspberries.png */,
+				7F75DEE81A64FB8F0092FC3C /* Red Cherries.png */,
+				7F75DEB11A5E4F250092FC3C /* Reeses.png */,
+				7F75DEEA1A64FB970092FC3C /* Roasted Almonds.png */,
+				7F75DEB21A5E4F250092FC3C /* Snickers.png */,
+				7F75DEB31A5E4F250092FC3C /* Strawberries.png */,
+				7F75DEEC1A64FBA70092FC3C /* Twix Bar.png */,
+				7F75DEB41A5E4F250092FC3C /* White Chocolate.png */,
+				7F75DEEE1A64FBAF0092FC3C /* Yellow Cake.png */,
+			);
+			path = MixIns;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,10 +448,75 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F75DE9D1A5E4F160092FC3C /* SweetCreamIceCream.png in Resources */,
+				3FA6A0261ABBED2700E6BD83 /* 2MixinFavorites.txt in Resources */,
+				7F75DEC91A5E4F250092FC3C /* White Chocolate.png in Resources */,
+				7F75DE931A5E4F160092FC3C /* CinnamonIceCrean.png in Resources */,
+				7F75DE8F1A5E4F160092FC3C /* ButterPecanIceCream.png in Resources */,
+				7F75DE8E1A5E4F160092FC3C /* BananaIceCream.png in Resources */,
+				7F75DEE31A64FB780092FC3C /* Oroes.png in Resources */,
+				7F75DEED1A64FBA70092FC3C /* Twix Bar.png in Resources */,
+				7F75DEB71A5E4F250092FC3C /* Brownie.png in Resources */,
+				7F75DEDD1A64FB520092FC3C /* Chocolate Shavings.png in Resources */,
+				7F75DEC61A5E4F250092FC3C /* Reeses.png in Resources */,
+				7F75DEBA1A5E4F250092FC3C /* Coconut.png in Resources */,
+				7F75DEC31A5E4F250092FC3C /* Peanuts.png in Resources */,
+				7F75DEE91A64FB8F0092FC3C /* Red Cherries.png in Resources */,
+				7F75DEDB1A64FB4C0092FC3C /* Butterfinger.png in Resources */,
+				7F75DED31A64FB0F0092FC3C /* RedHotStrawberryIceCream.png in Resources */,
+				7F75DEC21A5E4F250092FC3C /* Peach Pie.png in Resources */,
+				7F75DE9A1A5E4F160092FC3C /* PistachioIceCream.png in Resources */,
+				7F75DED71A64FB350092FC3C /* WatermelonSorbetIceCream.png in Resources */,
+				7F75DEC41A5E4F250092FC3C /* Pineapple.png in Resources */,
+				7F75DE961A5E4F160092FC3C /* CottonCandyIceCream.png in Resources */,
+				7F75DE901A5E4F160092FC3C /* CakeBatterIceCream.png in Resources */,
+				7F75DEDF1A64FB5A0092FC3C /* Crunch Bar.png in Resources */,
+				7F75DEB61A5E4F250092FC3C /* BlueBerries.png in Resources */,
+				7F75DE7B1A5E2FCC0092FC3C /* MixIn.plist in Resources */,
+				7F75DEB51A5E4F250092FC3C /* Apple Pie.png in Resources */,
+				7F75DEC01A5E4F250092FC3C /* M&Ms.png in Resources */,
+				7F75DEBB1A5E4F250092FC3C /* Cookie Dough.png in Resources */,
 				7F75DE471A5B71390092FC3C /* Main_iPad.storyboard in Resources */,
+				7F75DE951A5E4F160092FC3C /* CoffeeIceCream.png in Resources */,
+				7F75DEBF1A5E4F250092FC3C /* Heath Bar.png in Resources */,
+				7F75DEC51A5E4F250092FC3C /* Raspberries.png in Resources */,
+				7F75DEC11A5E4F250092FC3C /* Marshmallows.png in Resources */,
+				7F75DE9C1A5E4F160092FC3C /* StrawBerryIceCream.png in Resources */,
+				3FC64FD01AC2986E00778931 /* test.txt in Resources */,
+				7F75DE981A5E4F160092FC3C /* MangoIceCream.png in Resources */,
+				7F75DEBC1A5E4F250092FC3C /* Graham Cracker.png in Resources */,
+				7F75DECD1A64FAF10092FC3C /* ChocolateCakeBatterIceCream.png in Resources */,
+				7F75DEE71A64FB880092FC3C /* Rainbow Sprinkles.png in Resources */,
+				7F75DEBE1A5E4F250092FC3C /* Gummy Bears.png in Resources */,
+				7F75DEEB1A64FB970092FC3C /* Roasted Almonds.png in Resources */,
+				7F75DE941A5E4F160092FC3C /* CoconutIceCream.png in Resources */,
+				7F75DEB81A5E4F250092FC3C /* Chip Template.png in Resources */,
+				3FA6A0241ABBED2700E6BD83 /* 0MixinFavorites.txt in Resources */,
+				7F75DE9B1A5E4F160092FC3C /* PumpkinIceCream.png in Resources */,
+				7F75DE971A5E4F160092FC3C /* DarkChocolateIceCream.png in Resources */,
+				7F75DEE11A64FB670092FC3C /* KitKat Bar.png in Resources */,
+				7F75DECF1A64FB020092FC3C /* LemonSorbetIceCream.png in Resources */,
+				7F75DEB91A5E4F250092FC3C /* Chocolate chips.png in Resources */,
+				7F75DECB1A64FAE50092FC3C /* CandyCaneIceCream.png in Resources */,
+				7F75DEBD1A5E4F250092FC3C /* Gum Balls.png in Resources */,
+				7F75DED91A64FB480092FC3C /* Black Cherries.png in Resources */,
+				3FA6A0251ABBED2700E6BD83 /* 1MixinFavorites.txt in Resources */,
+				7F75DEC81A5E4F250092FC3C /* Strawberries.png in Resources */,
+				7F75DEC71A5E4F250092FC3C /* Snickers.png in Resources */,
+				7F75DEEF1A64FBAF0092FC3C /* Yellow Cake.png in Resources */,
+				7F75DED51A64FB150092FC3C /* SkinnyVanillaIceCream.png in Resources */,
+				7F75DE911A5E4F160092FC3C /* CheeseCakeIceCream.png in Resources */,
 				7F75DE4C1A5B71390092FC3C /* Images.xcassets in Resources */,
 				7F75DE441A5B71390092FC3C /* Main_iPhone.storyboard in Resources */,
+				7F75DED11A64FB090092FC3C /* OreoCreamFillingIceCream.png in Resources */,
+				3FA6A0271ABBED2700E6BD83 /* 3MixinFavorites.txt in Resources */,
+				3FA882D71AA270FE00BC2367 /* Settings.plist in Resources */,
+				7F75DE9E1A5E4F160092FC3C /* VanillaIceCream.png in Resources */,
+				7F75DE921A5E4F160092FC3C /* ChocolateIceCream.png in Resources */,
+				7F75DE6D1A5E1A390092FC3C /* IceCream.plist in Resources */,
+				7F75DE991A5E4F160092FC3C /* MintIceCream.png in Resources */,
 				7F75DE3B1A5B71390092FC3C /* InfoPlist.strings in Resources */,
+				7F75DEE51A64FB800092FC3C /* Pecans.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +538,7 @@
 				7F75DE4A1A5B71390092FC3C /* SefcomMainViewController.m in Sources */,
 				7F75DE411A5B71390092FC3C /* SefcomMainAppDelegate.m in Sources */,
 				7F75DE3D1A5B71390092FC3C /* main.m in Sources */,
+				3F21CD2A1A78D5EC00476193 /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,6 +753,7 @@
 				7F75DE641A5B71390092FC3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7F75DE651A5B71390092FC3C /* Build configuration list for PBXNativeTarget "IceCreamRandomizerTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +762,7 @@
 				7F75DE671A5B71390092FC3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
