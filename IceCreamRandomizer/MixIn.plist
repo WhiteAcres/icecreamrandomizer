@@ -256,7 +256,7 @@
 		<key>Image</key>
 		<string>Yellow Cake.png</string>
 		<key>Active</key>
-		<false/>
+		<true/>
 	</dict>
 </array>
 </plist>

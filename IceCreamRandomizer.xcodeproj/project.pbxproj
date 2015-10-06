@@ -8,12 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		3F21CD2A1A78D5EC00476193 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F21CD291A78D5EC00476193 /* SettingsViewController.m */; };
-		3FA6A0241ABBED2700E6BD83 /* 0MixinFavorites.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3FA6A0201ABBED2700E6BD83 /* 0MixinFavorites.txt */; };
-		3FA6A0251ABBED2700E6BD83 /* 1MixinFavorites.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3FA6A0211ABBED2700E6BD83 /* 1MixinFavorites.txt */; };
-		3FA6A0261ABBED2700E6BD83 /* 2MixinFavorites.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3FA6A0221ABBED2700E6BD83 /* 2MixinFavorites.txt */; };
-		3FA6A0271ABBED2700E6BD83 /* 3MixinFavorites.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3FA6A0231ABBED2700E6BD83 /* 3MixinFavorites.txt */; };
-		3FA882D71AA270FE00BC2367 /* Settings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3FA882D61AA270FE00BC2367 /* Settings.plist */; };
-		3FC64FD01AC2986E00778931 /* test.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3FC64FCF1AC2986E00778931 /* test.txt */; };
 		7F75DE311A5B71380092FC3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F75DE301A5B71380092FC3C /* Foundation.framework */; };
 		7F75DE331A5B71380092FC3C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F75DE321A5B71380092FC3C /* CoreGraphics.framework */; };
 		7F75DE351A5B71380092FC3C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F75DE341A5B71380092FC3C /* UIKit.framework */; };
@@ -103,12 +97,6 @@
 /* Begin PBXFileReference section */
 		3F21CD281A78D5EC00476193 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
 		3F21CD291A78D5EC00476193 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
-		3FA6A0201ABBED2700E6BD83 /* 0MixinFavorites.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 0MixinFavorites.txt; sourceTree = SOURCE_ROOT; };
-		3FA6A0211ABBED2700E6BD83 /* 1MixinFavorites.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 1MixinFavorites.txt; sourceTree = SOURCE_ROOT; };
-		3FA6A0221ABBED2700E6BD83 /* 2MixinFavorites.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 2MixinFavorites.txt; sourceTree = SOURCE_ROOT; };
-		3FA6A0231ABBED2700E6BD83 /* 3MixinFavorites.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 3MixinFavorites.txt; sourceTree = SOURCE_ROOT; };
-		3FA882D61AA270FE00BC2367 /* Settings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Settings.plist; sourceTree = "<group>"; };
-		3FC64FCF1AC2986E00778931 /* test.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.txt; sourceTree = SOURCE_ROOT; };
 		7F75DE2D1A5B71380092FC3C /* IceCreamRandomizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IceCreamRandomizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F75DE301A5B71380092FC3C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7F75DE321A5B71380092FC3C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -122,7 +110,7 @@
 		7F75DE431A5B71390092FC3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		7F75DE461A5B71390092FC3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		7F75DE481A5B71390092FC3C /* SefcomMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SefcomMainViewController.h; sourceTree = "<group>"; };
-		7F75DE491A5B71390092FC3C /* SefcomMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SefcomMainViewController.m; sourceTree = "<group>"; };
+		7F75DE491A5B71390092FC3C /* SefcomMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = SefcomMainViewController.m; sourceTree = "<group>"; };
 		7F75DE4B1A5B71390092FC3C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7F75DE511A5B71390092FC3C /* IceCreamRandomizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IceCreamRandomizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F75DE521A5B71390092FC3C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -247,7 +235,6 @@
 		7F75DE361A5B71380092FC3C /* IceCreamRandomizer */ = {
 			isa = PBXGroup;
 			children = (
-				3FC64FCF1AC2986E00778931 /* test.txt */,
 				7F75DE3F1A5B71390092FC3C /* SefcomMainAppDelegate.h */,
 				7F75DE401A5B71390092FC3C /* SefcomMainAppDelegate.m */,
 				7F75DE421A5B71390092FC3C /* Main_iPhone.storyboard */,
@@ -258,11 +245,6 @@
 				7F75DE491A5B71390092FC3C /* SefcomMainViewController.m */,
 				7F75DE6C1A5E1A390092FC3C /* IceCream.plist */,
 				7F75DE7A1A5E2FCC0092FC3C /* MixIn.plist */,
-				3FA882D61AA270FE00BC2367 /* Settings.plist */,
-				3FA6A0201ABBED2700E6BD83 /* 0MixinFavorites.txt */,
-				3FA6A0211ABBED2700E6BD83 /* 1MixinFavorites.txt */,
-				3FA6A0221ABBED2700E6BD83 /* 2MixinFavorites.txt */,
-				3FA6A0231ABBED2700E6BD83 /* 3MixinFavorites.txt */,
 				7F75DE4B1A5B71390092FC3C /* Images.xcassets */,
 				7F75DE371A5B71390092FC3C /* Supporting Files */,
 			);
@@ -449,7 +431,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F75DE9D1A5E4F160092FC3C /* SweetCreamIceCream.png in Resources */,
-				3FA6A0261ABBED2700E6BD83 /* 2MixinFavorites.txt in Resources */,
 				7F75DEC91A5E4F250092FC3C /* White Chocolate.png in Resources */,
 				7F75DE931A5E4F160092FC3C /* CinnamonIceCrean.png in Resources */,
 				7F75DE8F1A5E4F160092FC3C /* ButterPecanIceCream.png in Resources */,
@@ -482,7 +463,6 @@
 				7F75DEC51A5E4F250092FC3C /* Raspberries.png in Resources */,
 				7F75DEC11A5E4F250092FC3C /* Marshmallows.png in Resources */,
 				7F75DE9C1A5E4F160092FC3C /* StrawBerryIceCream.png in Resources */,
-				3FC64FD01AC2986E00778931 /* test.txt in Resources */,
 				7F75DE981A5E4F160092FC3C /* MangoIceCream.png in Resources */,
 				7F75DEBC1A5E4F250092FC3C /* Graham Cracker.png in Resources */,
 				7F75DECD1A64FAF10092FC3C /* ChocolateCakeBatterIceCream.png in Resources */,
@@ -491,7 +471,6 @@
 				7F75DEEB1A64FB970092FC3C /* Roasted Almonds.png in Resources */,
 				7F75DE941A5E4F160092FC3C /* CoconutIceCream.png in Resources */,
 				7F75DEB81A5E4F250092FC3C /* Chip Template.png in Resources */,
-				3FA6A0241ABBED2700E6BD83 /* 0MixinFavorites.txt in Resources */,
 				7F75DE9B1A5E4F160092FC3C /* PumpkinIceCream.png in Resources */,
 				7F75DE971A5E4F160092FC3C /* DarkChocolateIceCream.png in Resources */,
 				7F75DEE11A64FB670092FC3C /* KitKat Bar.png in Resources */,
@@ -500,7 +479,6 @@
 				7F75DECB1A64FAE50092FC3C /* CandyCaneIceCream.png in Resources */,
 				7F75DEBD1A5E4F250092FC3C /* Gum Balls.png in Resources */,
 				7F75DED91A64FB480092FC3C /* Black Cherries.png in Resources */,
-				3FA6A0251ABBED2700E6BD83 /* 1MixinFavorites.txt in Resources */,
 				7F75DEC81A5E4F250092FC3C /* Strawberries.png in Resources */,
 				7F75DEC71A5E4F250092FC3C /* Snickers.png in Resources */,
 				7F75DEEF1A64FBAF0092FC3C /* Yellow Cake.png in Resources */,
@@ -509,8 +487,6 @@
 				7F75DE4C1A5B71390092FC3C /* Images.xcassets in Resources */,
 				7F75DE441A5B71390092FC3C /* Main_iPhone.storyboard in Resources */,
 				7F75DED11A64FB090092FC3C /* OreoCreamFillingIceCream.png in Resources */,
-				3FA6A0271ABBED2700E6BD83 /* 3MixinFavorites.txt in Resources */,
-				3FA882D71AA270FE00BC2367 /* Settings.plist in Resources */,
 				7F75DE9E1A5E4F160092FC3C /* VanillaIceCream.png in Resources */,
 				7F75DE921A5E4F160092FC3C /* ChocolateIceCream.png in Resources */,
 				7F75DE6D1A5E1A390092FC3C /* IceCream.plist in Resources */,
