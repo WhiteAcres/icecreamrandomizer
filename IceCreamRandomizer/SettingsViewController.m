@@ -126,6 +126,12 @@ NSString *mixinActivityPath;
     [activeIceCreams setDataSource:self];
     activeIceCreams.allowsSelectionDuringEditing = YES;
     
+    UILabel *iceCreamsLabel = [[UILabel alloc] initWithFrame:CGRectMake(20, 5, 320, 35)];
+    iceCreamsLabel.text = @"Ice Creams";
+    iceCreamsLabel.textColor = [UIColor blueColor];
+    iceCreamsLabel.textAlignment = NSTextAlignmentCenter;
+    [editActivesView addSubview:iceCreamsLabel];
+    
     activeMixins = [[UITableView alloc] initWithFrame:CGRectMake(360, 50, 320, 530)];
     activeMixins.layer.borderColor = [UIColor blackColor].CGColor;
     activeMixins.layer.borderWidth = 0.5f;
@@ -135,6 +141,12 @@ NSString *mixinActivityPath;
     [activeMixins setDelegate:self];
     [activeMixins setDataSource:self];
     activeMixins.allowsSelectionDuringEditing = YES;
+    
+    UILabel *mixinLabel = [[UILabel alloc] initWithFrame:CGRectMake(360, 5, 320, 35)];
+    mixinLabel.text = @"Mix-ins";
+    mixinLabel.textColor = [UIColor blueColor];
+    mixinLabel.textAlignment = NSTextAlignmentCenter;
+    [editActivesView addSubview:mixinLabel];
 }
 
 - (void) editFavoritesButtonPressed
@@ -318,7 +330,6 @@ NSString *mixinActivityPath;
                     [self deleteZeroMixinFavorites];
                     break;
                 }
-                    break;
                 case 1:
                 {
                     [oneMixinFavorites removeObjectAtIndex:indexPath.row];
@@ -337,7 +348,6 @@ NSString *mixinActivityPath;
                     [self deleteThreeMixinFavorites];
                     break;
                 }
-                    break;
                 default:
                     break;
             }
